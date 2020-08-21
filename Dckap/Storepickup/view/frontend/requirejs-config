@@ -1,0 +1,12 @@
+var config = {
+    "map": {
+        "*": {
+            'Magento_Checkout/js/model/shipping-save-processor/default': 'Dckap_Storepickup/js/model/shipping-save-processor/default'
+        }
+    },
+    mixins: {
+            'Magento_Checkout/js/action/set-shipping-information': {
+                'Dckap_Storepickup/js/action/set-shipping-information-mixin': true
+            }
+        }
+};
